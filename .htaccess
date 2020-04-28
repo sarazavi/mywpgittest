@@ -5,11 +5,11 @@
 # هر تغییری در دستورالعمل‌های بین این نشان‌گرها بازنویشی خواهند شد.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /wp/
+RewriteBase /mywpgittest/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wp/index.php [L]
+RewriteRule . /mywpgittest/index.php [L]
 </IfModule>
 
 # END WordPress
